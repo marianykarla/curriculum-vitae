@@ -1,0 +1,103 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #acb0b4;
+}
+
+.conteiner {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 205mm;
+    height: 230mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+}
+
+.conteiner .card-one {
+    padding: 40px 20px;
+    padding-left: 35px;
+    background-color: #d1d1d1;
+    width: 100%;
+    color: #313131;
+}
+
+.conteiner .card-one .profile {
+
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #2c2b29;
+    background-image: url(fotominha.jpeg);
+    background-position: center top;
+    background-size: 100%;
+
+}
+.conteiner .card-one .apresentação {
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+.conteiner .card-one .habilidades {
+    margin-top: 35px;
+
+}
+
+.conteiner .card-one .línguas {
+    margin-top: 35px;
+}
+.conteiner .card-two {
+    background-color: #173c62;
+    padding: 40px 20px ;
+    padding-right: 75px;
+    color: #dadada;
+}
+
+.conteiner .card-two .head-title {
+    font-size: 2.0em;
+    color: #b89258;
+    font-weight: 400;
+}
+.conteiner .card-two .endereço {
+    margin-top: 20px;
+    line-height: 1.2;
+    margin-left: 10px;
+}
+
+.conteiner .card-two .box {
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 25px;
+    background-color: #b89258;
+    color: #2c2b29;
+}
+
+.conteiner .card-two .group-1 {
+    margin-top: 35px;
+    line-height: 1.5;
+}
+
+.conteiner .card-two .group-2 .contato {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.conteiner .card-two .group-2 .contato ul {
+    position: relative;
+    margin-top: 15px;
+    
+}
+
+.conteiner .card-two .group-3 .educação {
+    margin-top: 30px;
+    margin-left: 20px;
+}
